@@ -14,8 +14,8 @@
 
  // you can specify which email you want your contact form to be emailed to here
 
-  $toemail = "huailun@hotmail.com";
-  $subject = "from Ellen.com";
+  $toemail = "huailun428@gmail.com";
+  $subject = "from ellenliu.net";
 
   $headers = "MIME-Version: 1.0\n"
             ."From: \"".$name."\" <".$email.">\n"
@@ -34,7 +34,7 @@
   }
 
     mail($toemail, $subject, $body, $headers);
-    echo "Thanks for submitting your comments";
+    echo "Thanks for your message.";
 ?>
 </body>
 </html>
