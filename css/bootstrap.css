@@ -6234,7 +6234,7 @@ button.close {
   border-left-color: #fff;
 }
 .carousel {
-  position: relative;
+  /*position: relative;*/
 }
 .carousel-inner {
   position: relative;
@@ -6514,6 +6514,7 @@ button.close {
   display: block;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 2px;
 }
 
 .center-block-a {
